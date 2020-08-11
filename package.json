@@ -12,6 +12,6 @@
     "javascript"
   ],
   "scripts": {
-    "bootstrap": "npm i && cd packages/core && npm i && cd - && cd packages/playground && npm i && cd - && cd packages/proxy && npm i"
+    "bootstrap": "npm i && cd packages/core && npm i && cd - && cd packages/playground && npm i && cd - && cd packages/proxy && npm i && npm run start && cd - && cd packages/playground && npm run start"
   }
 }
