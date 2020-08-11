@@ -33,7 +33,8 @@
     "clean": "rm -rf dist"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=12.0.0",
+    "npm": ">= 4.4.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.7",
